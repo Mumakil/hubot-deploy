@@ -66,7 +66,8 @@ class Deployment
         room: @room
         user: @user
         adapter: @adapter
-        message_thread: @message_thread
+        message_id: @message_id
+        thread_id: @thread_id
       config: @application
 
   setUserToken: (token) ->
